@@ -12,3 +12,16 @@ variable "instance_type" {
   description = "AWS Instance type"
   default = "t2.micro"
 }
+
+variable "root_public_key" {
+  description = "ssh access public key"
+}
+
+variable "aws_secret_key" {
+  description = "AWS Secret Access Key"
+}
+
+variable "aws_access_key" {
+  description = "AWS Access Key Id"
+}
+

@@ -1,3 +1,3 @@
-output "aws_instance_public_up" {
-  value = aws_instance.dokku.public_ip
+output "connect_via_ssh" {
+  value = "ssh ubuntu@${aws_instance.dokku.public_ip}"
 }
