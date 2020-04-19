@@ -13,7 +13,7 @@ variable "instance_type" {
   default = "t2.micro"
 }
 
-variable "root_public_key" {
+variable "public_ssh_key" {
   description = "ssh access public key"
 }
 
